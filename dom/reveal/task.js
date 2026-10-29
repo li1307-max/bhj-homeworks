@@ -1,4 +1,4 @@
-onst reveals = document.querySelectorAll('.reveal');
+const reveals = document.querySelectorAll('.reveal');
 
 function checkReveal() {
   reveals.forEach(function (reveal) {
@@ -11,3 +11,5 @@ function checkReveal() {
 }
 
 window.addEventListener('scroll', checkReveal);
+
+checkReveal();
